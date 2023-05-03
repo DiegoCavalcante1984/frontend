@@ -1,0 +1,7 @@
+.subtitle{
+  font-size:clamp(2rem,3.6vw,4rem);
+  color:var(--subtitle);
+  text-align: center;
+  padding-top:20px;
+  background-color:#1f1e1e;
+}

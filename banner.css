@@ -1,0 +1,46 @@
+.banner{
+  height:90vh;
+  text-align: center;
+  padding-top:80px;
+  background-size:cover;
+  background-image:url(image/note.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+.banner p{
+  margin:10px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size:24px;
+  font-size: 1.3rem;
+  
+  
+}
+.banner .btn{
+  margin:100px 10px;
+  
+
+}
+.banner i{
+  color: #FFF;
+  font-size:30px;
+  margin-top:50px;
+  
+}
+
+@media (max-width:480px){
+  .banner{
+    height:100vh;
+    background-position:center;
+   
+    
+  }
+}
+@media (min-width:800px){
+  .banner .btn{
+    padding-bottom:40px;
+    height:auto;
+  }
+}

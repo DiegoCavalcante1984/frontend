@@ -1,0 +1,9 @@
+.title{
+    
+    color:#fdcb6e;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(2rem,6vw,3rem);
+    padding-bottom:30px;
+    margin-top: 50px;
+  
+}
